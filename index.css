@@ -1,0 +1,135 @@
+  .day_night{
+    width: 38px;
+    background-color:transparent;
+    border: none;
+    position: fixed;
+    top: 18px;
+    left: 85vw;
+    padding: 1px;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+body {
+  font-family: Lato, sans-serif;
+  margin: 10px;
+  background-color: #e5e5e5;
+  /* background-color: #5e5f60; */
+  /* background-color: #1a2531; */
+}
+.container_about{
+  margin: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 85vh;
+}
+.aboutsection {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* box-sizing: border-box; */
+}
+
+.myimage {
+  flex-basis: 34%;
+  width: 35vw;
+  min-width: 220px;
+  height: auto;
+  margin: 20px;
+  
+}
+
+img {
+  src: url('./images/myimage.jpeg');
+  max-width: 80%;
+  border-radius: 9px;
+
+}
+
+.aboutme {
+  flex-basis: 60%;
+  /* height: 120%; */
+  width: 40%;
+  height: auto;
+  display: flex;
+  /* min-width: 300px; */
+  /* text-align: center; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#demo {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  color:  #86969f
+}
+
+#name {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  color: #43bafa;
+}
+
+#aboutdes {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: #232a2f;
+  width: 80%;
+  min-width: 200px;
+  /* color: #828284; */
+  /* color: rgb(188, 189, 189); */
+}
+#languages{
+  font-family: 'Oswald', sans-serif;
+  color: #c200fd;
+  /* color: #d258fb; */
+}
+#print{
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 20px;
+  /* font-family: 'Oswald', sans-serif; */
+  color: #b004e0;
+}

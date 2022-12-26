@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>biraj-portfolio</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+	</style>
+	<link rel="stylesheet" href="projects.css">
+
+	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700"> -->
+</head>
+
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="../index.html">About</a>
+		<a href="../academics/academics.html">Academics</a>
+		<a href="../projects/projects.html">Projects</a>
+		<a href="../contact/contact.html">Social</a>
+	</div>
+	<span class="open_nav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	<button class="day_night" onclick="togglemode(false)"><img src="../images/day_night.png"></button>
+	<!-- Projects section -->
+	<div class="container">
+		<div class="project">
+			<!-- <div class="images"> -->
+			<div class="imagecontainer">
+				<img id="img">
+			</div>
+			<!-- </div> -->
+			<div id="title"></div>
+			<div id="description" class="description"></div>
+			<button class="left" onclick="onClick(true)">&lt</button>
+			<button class="right" onclick="onClick(true)">&gt</button>
+		</div>
+		
+	</div>
+	<script src="./projects.js"></script>
+
+</body>
+
+</html>

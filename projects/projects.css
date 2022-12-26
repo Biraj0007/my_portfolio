@@ -1,0 +1,116 @@
+/* *{
+  background-color: #fffefe;
+} */
+body{
+  background: rgb(255, 255, 255);
+}
+.day_night{
+  width: 50px;
+  background-color:transparent;
+  border: none;
+  position: fixed;
+  top: 15px;
+  left: 85vw;
+}
+.day_night img{
+  width: 25px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Oswald:wght@300&display=swap');
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+   
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+ 
+  .container{
+    background-color: #FECD45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .project{
+    margin: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #img{
+    width: 50vw;
+    min-width: 300px;
+    height: auto;
+    display: block;
+    
+  }
+ .left{
+  position: fixed;
+  left: 0px;
+  top: 40vh;
+  padding: 1rem;
+  font-size: 3vw;
+ }
+ .right{
+  position: fixed;
+  right: 0px;
+  top: 40vh;
+  padding: 1rem;
+  font-size: 3vw;
+ }
+ #title{
+  /* flex-basis: 50%; */
+  margin: 3vh;
+  width: 50vw;
+  /* min-width: 30px; */
+  font-size: 3vw;
+  text-align: center;
+  font-family: 'Martian Mono', monospace;
+  color: white;
+  
+ }
+ #description{
+  /* flex-basis: 50%; */
+  /* margin: 3vh; */
+  text-align: center;
+  width: 50vw;
+  padding: 2vw;
+  font-size:2vw ;
+  font-family: 'Martian Mono', monospace;
+  
+ }
+ 

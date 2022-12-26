@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Martian+Mono:wght@200&family=Oswald:wght@300&display=swap');
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+
+  .day_night{
+    width: 38px;
+    background-color:transparent;
+    border: none;
+    position: fixed;
+    top: 18px;
+    left: 85vw;
+    padding: 1px;
+  }
+  .day_night img{
+    max-width: 80%;
+  border-radius: 10px;
+  }
+
+  .bigcontainer{
+    /* width: 100vw;
+    height: auto; */
+    margin: 5vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+  }
+
+.social_container{
+  /* width: ; */
+  /* height: auto; */
+  margin: 3em;
+  height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.heading{
+  /* width: 18em; */
+  height: auto;
+ 
+  text-align: center;
+ 
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
+  /* margin: 1rem;
+  padding: 1rem; */
+  color: rgb(29, 182, 220);
+}
+.my_img{
+  margin: 15px;
+}
+.my_img img{
+width: 23vh;
+height: auto;
+border-radius: 50%;
+
+}
+
+  .contact_container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact_container a{
+    text-decoration: none;
+  }
+  .contact_container a img{
+    margin: 1vh;
+    width: 2em;
+    height: auto;
+  }
+  .contact_container a img:hover{
+    -webkit-filter: grayscale(100%); 
+    /* filter: grayscale(100%); */
+    filter:grayscale(100%) drop-shadow(0 0 0.45rem rgb(10, 22, 26));
+    
+  }
+
+   .youtube{
+    display: flex;
+    justify-content: center;
+    align-items: center;   }
+  .youtube a img{
+    margin: 1vh;
+    width: 2em;
+    height: auto;
+  }
+  .check{
+    font-size: 1.6em;
+    font-family: 'Caveat', cursive;
+    /* color: #c4c4c4; */
+  }
+  .youtube a img:hover{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+  }
